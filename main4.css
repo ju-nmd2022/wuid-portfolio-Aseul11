@@ -1,0 +1,150 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin-bottom: 3cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    background-color: #c6ef96;
+
+}
+
+@media screen and (min-width: 40em) {
+    .boxes {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2px;
+    }
+
+}
+
+.heading {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 4ch;
+    
+    
+}
+
+.totoro {
+    width: 6cm;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.flower {
+    width: 6cm;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.layout {
+    width: 10cm;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.cactus {
+    width: 8cm;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.koi {
+    width: 8cm; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.avocado {
+    width: 8cm;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.totoro-text {
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+
+.layout-text {
+    margin-left: 1rem;
+}
+
+.sub-heading1 {
+    font-weight: bold;
+}
+
+.sub-heading2 {
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #555;
+}
+
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #333;
+}
+
+.active {
+    background-color: #88b358;
+}
+
+
+  
+li:last-child {
+    border-right: none;
+  }
+
+  
+
+.photo1 {
+     width: 10cm;
+}
+
+.photo2 {
+    width: 10cm;
+}
+
+.photo3 {
+    width: 10cm;
+}
+
+.photo4 {
+    width: 10cm;
+}

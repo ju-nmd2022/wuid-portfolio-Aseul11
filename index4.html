@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main4.css" />
+    
+    <style>
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 1rem;
+            grid-row-gap: 2rem;
+            grid-auto-rows: minmax(100px,auto);
+            justify-items: stretch;
+        }
+
+        .container > div {
+            background-color: #88b358;
+            padding: 1rem;
+    
+        }
+
+
+        
+        .sub-heading2 {
+            
+            grid-column:4/2;
+            
+        }
+
+        .nested4 {
+            
+            display: grid;
+            grid-row: 2/4;
+            grid-row-gap: 0;
+            float: left;
+        }
+
+        .nested5 {
+            display: grid;
+            justify-items: center;
+            grid-row: 2/4;
+            float: left;
+        }
+        .nested6 {
+            display: grid;
+            justify-items: center;
+            grid-row: 2/4;
+            float: left;
+        }
+
+        .paragraph-1 {
+            margin-top: 3rem;
+        }
+
+        .nested1 {
+            float: left;
+        }
+
+        .nested2 {
+            float: left;
+        }
+
+        .nested3  {
+            float: left;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="menu">
+    <ul>
+        <li><a href="index.html">About me</a></li>
+        <li><a href="second.html">Jonkoping</a></li>
+        <li><a href="index3.html">My works</a></li>
+        <li><a class="active" href="index4.html">Layout</a></li>
+      </ul>
+    </div>
+
+
+<main>
+    <center>
+    <div class="heading">
+       LAYOUT
+    </div>
+    </center>
+
+<div class="container">
+     
+
+
+    <div class="sub-heading1"> 
+        ABOUT 
+    </div>
+    
+    <div class="sub-heading2">
+        MAGAZINE SPREADS
+    </div>
+
+    <div class="nested4"> 
+        <div class="paragraph-1">
+            Modern Interior Design Style magazine explains an important aspects of the Modern Design style, why it is so popular nowadays and how this style is different from others.
+        </div>
+        <div>
+            First spread descrides Modern Design and its history, and differentiates it from Contemporary Design Style, which is quite similar from the first glance.
+        </div>
+        <div>
+            Second spread is about basics of every design style - colours, lines, and shapes.
+        </div>
+        
+        <div>
+            Third spread describes unique furniture style, which is used in Modern Interior Design, and such details as floor, walls, and ceiling look, since it is a core of this design style.
+        </div>
+
+        <div>
+            Last but not list, fourth spread talks about decorations and details in design, which plays an essencial role in the atmosphere of Modern Interior Design Style.  
+        </div>
+    </div>
+    
+    <div class="nested5">
+        <div>
+            <p>1</p>
+            <img class="photo1" src="images/Layout modern design.jpg" alt="1">
+            <p>2</p> 
+            <img class="photo2" src="images/Layout modern design2.jpg" alt="2"> 
+        </div>
+    </div>
+
+    <div class="nested6">
+        <div>
+            <p>3</p>
+            <img class="photo3" src="images/Layout modern design3.jpg" alt="3">
+            <p>4</p> 
+            <img class="photo4" src="images/Layout modern design4.jpg" alt="4"> 
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>

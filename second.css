@@ -1,8 +1,20 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}.container {
+
+
+
+}
+
+body{
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-bottom: 3cm;
+}
+
+.container {
     display: flex;
+
 }
 
 .city-view {
@@ -85,3 +97,50 @@ font-weight: bold;
 .moor {
    margin-top: 0.6cm;
 }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #555;
+}
+
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #333;
+}
+
+.active {
+    background-color: #88b358;
+}
+
+
+  
+li:last-child {
+    border-right: none;
+  }
