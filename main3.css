@@ -6,8 +6,12 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    
   }
+
+body {
+    margin-top: 20px;
+}
 
 
 
@@ -148,15 +152,26 @@ body {
 }
 
 
+
+
+/* found a solution on how to make the menu on top in https://www.w3schools.com/ */
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 
 li {
     float: left;
+    border-right: 1px solid #bbb;
 }
 
 a {
@@ -165,21 +180,6 @@ a {
     background-color: #555;
 }
 
-ul {
-    background-color: #dddddd;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-    float: left;
-}
   
 li a {
     display: block;
@@ -196,14 +196,6 @@ li a:hover {
     background-color: #88b358;
 }
 
-li {
-    border-right: 1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-
   @media only screen and (max-width:670px) {
 
 
@@ -216,6 +208,7 @@ li {
         grid-auto-rows: minmax(100px, auto);
         justify-content: center;
         grid-gap: 1em;
+        padding-left: 50px;
 
     
     }
@@ -273,12 +266,11 @@ li {
         justify-items: center;
         
     }
+    
     .sub-heading2 {
         display: grid;
-    
         grid-row: 6;
-        
-        
+
     }
     
     

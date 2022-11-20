@@ -6,6 +6,75 @@
     box-sizing: border-box;
   }
 
+
+body {
+    margin-top: 20px;
+}
+
+
+  .container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-columns: repeat (3, 1fr);
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+        grid-auto-rows: minmax(100px, auto);
+        justify-content: center;
+        grid-gap: 1em;
+  }
+
+  .container > div {
+      background-color: #88b358;
+      padding: 1rem;
+
+  }
+
+
+  
+  .sub-heading2 {
+      
+      grid-column:4/2;
+      
+  }
+
+  .nested4 {
+      
+      display: grid;
+      grid-row: 2/4;
+      grid-row-gap: 0;
+      float: left;
+  }
+
+  .nested5 {
+      display: grid;
+      justify-items: center;
+      grid-row: 2/4;
+      float: left;
+  }
+  .nested6 {
+      display: grid;
+      justify-items: center;
+      grid-row: 2/4;
+      float: left;
+  }
+
+  .paragraph-1 {
+      margin-top: 3rem;
+  }
+
+  .nested1 {
+      float: left;
+  }
+
+  .nested2 {
+      float: left;
+  }
+
+  .nested3  {
+      float: left;
+  }
+
+
 body {
     margin-bottom: 3cm;
     margin-left: 3cm;
@@ -14,13 +83,6 @@ body {
 
 }
 
-@media screen and (min-width: 40em) {
-    .boxes {
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 2px;
-    }
-
-}
 
 .heading {
     margin-bottom: 4rem;
@@ -85,6 +147,8 @@ body {
 }
 
 
+/* found a solution on how to make the menu on top in https://www.w3schools.com/ */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -147,4 +211,54 @@ li:last-child {
 
 .photo4 {
     width: 10cm;
+}
+
+
+@media only screen and (max-width:670px) {
+
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-columns: repeat (3, 1fr);
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+        grid-auto-rows: minmax(100px, auto);
+        justify-content: center;
+        grid-gap: 1em;
+
+    
+    }
+
+    .sub-heading1 {
+        display: grid;
+        grid-row: 1;
+    }
+
+    .nested4 {
+        display: grid;
+        grid-row: 2; 
+    }
+
+    .sub-heading2 {
+        display: grid;
+        grid-row: 3; 
+    }
+
+    .nested5 {
+        display: grid;
+        justify-items: center;
+        grid-row: 4; 
+    }
+
+    .nested6 {
+        display: grid;
+        justify-items: center;
+        grid-row: 5; 
+    }
+
+
+
+
+
 }

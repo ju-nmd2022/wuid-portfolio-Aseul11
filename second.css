@@ -10,6 +10,9 @@ body{
     margin-left: 3cm;
     margin-right: 3cm;
     margin-bottom: 3cm;
+    margin-top: 20px;
+
+    
 }
 
 .container {
@@ -99,6 +102,9 @@ font-weight: bold;
 }
 
 
+
+/* found a solution on how to make the menu on top in https://www.w3schools.com/ */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -138,9 +144,3 @@ li a:hover {
 .active {
     background-color: #88b358;
 }
-
-
-  
-li:last-child {
-    border-right: none;
-  }
